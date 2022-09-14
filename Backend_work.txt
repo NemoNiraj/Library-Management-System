@@ -1,0 +1,32 @@
+Initialization-
+1. Started the Django Project with basic needed commands.
+2. Created an APP called book.
+
+Database Setup-
+1. Created a new Mysql Database for project and gave name lib.
+2. switched the database from sqlite to Mysql.
+3. Updated the Settings in Django for using Database.
+
+Implemented Steps-
+1. Created  some HTML tamplates in book APP.
+2. Created models and specified information about data to be used for database.
+3. Created forms to upload the books also and to maintain the code easily.
+4. In admin Registed the book  model.
+ 4.1. After makemigrations command is used to generate migration for book.
+ 4.2. Then Migrated models to database and evolve as needed.
+5. Created Superuser to administer the APP.
+ 5.1. Implemented the Steps which are needed to create superuser as Admin.
+6. Created Views-
+ 6.1. imported all needed paths and libraries.
+ 6.2. READ-> Created a function to request all book in library and show them.
+ 6.3. CREATE-> Used POST method to create and Upload the books.
+ 6.4. UPDATE-> Needed the id of boot to specify which book is to update and using id, Update operation can be performed.
+ 6.5. Delete-> As did in update also neede id for the book and using that book can be deleted successfully. 
+ 6.6. here in Vews all CRUD application is done by the admin.
+7. Created Url file in book APP and imported neede paths for routing.
+ 7.1. Used paths and assign routes.
+ 7.2. Made routes for all CRUD application.
+ 7.3. Added function to provide static and media files by the server.
+8. Updated the url file in the main libsystem, Also added the book App url file path. Now the whole paths are in sync.
+9. Linked the Backend and Frontend. Used Django tamplate tag to use logic in HTML.
+10. Now Run the project and its working for CRUD operation by admin.
